@@ -16,7 +16,7 @@ import (
 
 var logsIndexMutex = sync.Mutex{}
 
-const indexesPath = "api/v1/logs/indexes"
+const indexesPath = "/api/v1/logs/indexes"
 
 var indexSchema = map[string]*schema.Schema{
 	"name": {
